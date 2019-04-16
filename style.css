@@ -55,12 +55,37 @@
     font-size: 15px;
 }
 
-/**********__cs.html__*********/
+/**********__csd.html__*********/
 
 .cs-top-cont h1
 {
 	background-color: green;
 	text-align: center;
 }
+
+.cs-top-cont h2
+{
+	text-align: center;
+	text-decoration-color: black;
+}
+
+.csd 
+{
+	display:grid;
+	grid-template-columns:1fr 1fr ;
+	grid-template-rows: 25% 25% ;
+	grid-row-gap: 12px;
+	grid-column-gap: 12px;
+
+
+}
+
+.csd1 h3
+{
+	text-align: center;
+	text-decoration-style: all;
+}
+
+
 
 
