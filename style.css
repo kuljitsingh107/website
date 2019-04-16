@@ -1,0 +1,66 @@
+
+
+/*************__Main.html__***********/
+
+.body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)), url(sac_state.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+.department h1 
+{
+	
+	text-align: center;
+	padding: 200px;
+}
+
+.department h1 a:hover
+{
+    color:green;
+    
+}
+
+.department h1 a:active
+{
+	color: red;
+    background-color: transparent;
+}
+
+/********__department.html__***********/
+
+.engineering 
+{
+	background-color: rgba(255,255,255,0.4);
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	border:1px;
+	padding:10px;
+}
+
+.top-cont h1
+{
+	background-color: green;
+	text-align: center;
+}
+
+.grid 
+{
+    border:1px solid rgba(255,255,255,0.8);
+    padding:2px;
+    text-align:center; 
+    font-size: 15px;
+}
+
+/**********__cs.html__*********/
+
+.cs-top-cont h1
+{
+	background-color: green;
+	text-align: center;
+}
+
+
